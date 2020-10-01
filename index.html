@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Validation Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class = "container">
+    <form>
+        <input type="text" id="email" placeholder="Email">
+        <br>
+        <span class = "errorMessage" id="illegalEmail">Incorrect email format!</span>
+        <br>
+        <input type="password" id="password" placeholder="Password">
+        <br>
+        <span class = "errorMessage" id="illegalPass">Password must contain at least 8 symbols which are digits, lowercase and uppercase letters!</span>
+        <input type="password" id="confirmPswrd" placeholder="Confirm Password">
+        <br>
+        <span class="errorMessage" id="illegalConfirm">Please, re-enter your password!</span>
+        <button id="submit" type="button"><b>Submit</b></button>
+    </form>
+</div>
+<script type="text/javascript" src="js/form.js"></script>
+</body>
+</html>
